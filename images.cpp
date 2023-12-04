@@ -53,11 +53,11 @@ void Image3(HDC hdc, int cx, int cy, COLORREF color) {
     SelectObject(hdc, hpen);
 
     POINT p[5] = {
+        cx,      cy + 20,
+        cx + 20, cy - 20,
         cx,      cy,
-        cx + 20, cy - 40,
-        cx,      cy - 20,
-        cx - 20, cy - 40,
-        cx,      cy
+        cx - 20, cy - 20,
+        cx,      cy + 20
     };
     Polyline(hdc, p, 5);
     DeleteObject(hpen);
