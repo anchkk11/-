@@ -17,11 +17,11 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-
+	
 
 	printf("%d", fact(5));
 
-	//ЗАДАЧА 1
+	//Р—РђР”РђР§Рђ 1
 	/*FILE* fin = fopen("text1.txt", "rt");
 	FILE* fout;
 	fout = fopen("out1.txt", "wt");
@@ -29,8 +29,8 @@ int main()
 		if (fgets(s, MAX_LEN - 1, fin) != NULL) {
 			for (int i = 0; s[i] != '\0'; i++) {
 
-				if (s[i] == '\t')
-					s[i] = '%';
+				if (s[i] == '\t') 
+					s[i] = '%'; 
 
 			}
 			fprintf(fout, "%s", s);
@@ -38,10 +38,10 @@ int main()
 	}
 	fclose(fin);
 	fclose(fout);
-	printf("Задача 1 FINISH\n");*/
+	printf("Р—Р°РґР°С‡Р° 1 FINISH\n");*/
 
 
-	//ЗАДАЧА 2
+	//Р—РђР”РђР§Рђ 2
 	/*FILE* fin = fopen("text2.txt", "rt");
 	FILE* fout;
 	fout = fopen("out2.txt", "wt");
@@ -55,9 +55,9 @@ int main()
 	}
 	fclose(fin);
 	fclose(fout);
-	printf("Задача 2 FINISH\n");*/
+	printf("Р—Р°РґР°С‡Р° 2 FINISH\n");*/
 
-	//ЗАДАЧА 3
+	//Р—РђР”РђР§Рђ 3
 	/*FILE* fin = fopen("text3.txt", "rt");
 	FILE* fout = fopen("out3.txt", "wt");
 	while (fgets(s, MAX_LEN, fin)) {
@@ -75,65 +75,65 @@ int main()
 	}
 	fclose(fin);
 	fclose(fout);
-	printf("Задача 3 FINISH\n");*/
+	printf("Р—Р°РґР°С‡Р° 3 FINISH\n");*/
 
-	//ЗАДАЧА 4
+	//Р—РђР”РђР§Рђ 4
 	//int getNextDelim(FILE * fp, char token[]);
 	//int getNextWord(FILE * fp, char token[], int maxLen);
 
 	//char filename[] = "text1.txt";
 
-	//// открываем файл с текстом
+	//// РѕС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» СЃ С‚РµРєСЃС‚РѕРј
 	//FILE* fin = fopen(filename, "rt");
 	//if (fin == NULL) {
-	//	// если файл не смогли открыть - сообщаем об этом
+	//	// РµСЃР»Рё С„Р°Р№Р» РЅРµ СЃРјРѕРіР»Рё РѕС‚РєСЂС‹С‚СЊ - СЃРѕРѕР±С‰Р°РµРј РѕР± СЌС‚РѕРј
 	//	printf("File %s doesn't opened!\n", filename);
 	//	return;
 	//}
 	//char token[MAX_LEN];
 	//int res;
 
-	//// пока не конец файла
+	//// РїРѕРєР° РЅРµ РєРѕРЅРµС† С„Р°Р№Р»Р°
 	//while (!feof(fin)) {
-	//	// пока есть разделитель - берем его
+	//	// РїРѕРєР° РµСЃС‚СЊ СЂР°Р·РґРµР»РёС‚РµР»СЊ - Р±РµСЂРµРј РµРіРѕ
 	//	while (getNextDelim(fin, token)) {
-	//		// выводим разделитель в консоль
+	//		// РІС‹РІРѕРґРёРј СЂР°Р·РґРµР»РёС‚РµР»СЊ РІ РєРѕРЅСЃРѕР»СЊ
 	//		printf("<DELIM>%s</DELIM>\n", token);
 	//	}
-	//	// если есть слово - берем его
+	//	// РµСЃР»Рё РµСЃС‚СЊ СЃР»РѕРІРѕ - Р±РµСЂРµРј РµРіРѕ
 	//	if (getNextWord(fin, token, MAX_LEN)) {
-	//		// выводим слово в консоль
+	//		// РІС‹РІРѕРґРёРј СЃР»РѕРІРѕ РІ РєРѕРЅСЃРѕР»СЊ
 	//		printf("<WORD>%s</WORD>\n", token);
 	//	}
 	//}
-	//// Закрываем файл с текстом
+	//// Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р» СЃ С‚РµРєСЃС‚РѕРј
 	//fclose(fin);
 	//printf("END!!!\n");
 
-	//ЗАДАЧА 5
+	//Р—РђР”РђР§Рђ 5
 	//char filenameIn[] = "text1.txt";
 	//char filenameHTML[] = "text1_out.html";
 	//printf("BEGIN!!!\n");
 
-	//// открыть файл текстовый (ВХОДНОЙ)
+	//// РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» С‚РµРєСЃС‚РѕРІС‹Р№ (Р’РҐРћР”РќРћР™)
 	//FILE* fin = fopen(filenameIn, "rt");
 	//if (fin == NULL) {
-	//	// если файл не смогли открыть - сообщаем об этом
+	//	// РµСЃР»Рё С„Р°Р№Р» РЅРµ СЃРјРѕРіР»Рё РѕС‚РєСЂС‹С‚СЊ - СЃРѕРѕР±С‰Р°РµРј РѕР± СЌС‚РѕРј
 	//	printf("File %s doesn't opened!\n", filenameIn);
 	//	return;
 	//}
-	//// открыть HTML файл (выходной файл)
+	//// РѕС‚РєСЂС‹С‚СЊ HTML С„Р°Р№Р» (РІС‹С…РѕРґРЅРѕР№ С„Р°Р№Р»)
 	//FILE* fout = fopen(filenameHTML, "wt");
 	//if (fout == NULL) {
-	//	// закрываем ранее успешно открытый входной файл
+	//	// Р·Р°РєСЂС‹РІР°РµРј СЂР°РЅРµРµ СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚С‹Р№ РІС…РѕРґРЅРѕР№ С„Р°Р№Р»
 	//	fclose(fin);
-	//	// если файл не смогли открыть - сообщаем об этом
+	//	// РµСЃР»Рё С„Р°Р№Р» РЅРµ СЃРјРѕРіР»Рё РѕС‚РєСЂС‹С‚СЊ - СЃРѕРѕР±С‰Р°РµРј РѕР± СЌС‚РѕРј
 	//	printf("File %s doesn't opened!\n", filenameHTML);
 	//	return;
 	//}
 
 
-	//// Выводим в выходной файл заголовок HTML документа
+	//// Р’С‹РІРѕРґРёРј РІ РІС‹С…РѕРґРЅРѕР№ С„Р°Р№Р» Р·Р°РіРѕР»РѕРІРѕРє HTML РґРѕРєСѓРјРµРЅС‚Р°
 	//fprintf(fout, "<!DOCTYPE html>");
 	//fprintf(fout, "<html>");
 	//fprintf(fout, "<head>");
@@ -144,37 +144,37 @@ int main()
 
 	//int ch;
 	//while ((ch = getc(fin)) != EOF) {
-	//	// в HTML файл добавляем только что прочитанный
-	//	// символ "КАК ЕСТЬ"
+	//	// РІ HTML С„Р°Р№Р» РґРѕР±Р°РІР»СЏРµРј С‚РѕР»СЊРєРѕ С‡С‚Рѕ РїСЂРѕС‡РёС‚Р°РЅРЅС‹Р№
+	//	// СЃРёРјРІРѕР» "РљРђРљ Р•РЎРўР¬"
 	//	fprintf(fout, "%c", ch);
 
-	//	// если в тексте был символ новой строки –
-	//	// в HTML добавляем тег <BR> - новая строка
+	//	// РµСЃР»Рё РІ С‚РµРєСЃС‚Рµ Р±С‹Р» СЃРёРјРІРѕР» РЅРѕРІРѕР№ СЃС‚СЂРѕРєРё вЂ“
+	//	// РІ HTML РґРѕР±Р°РІР»СЏРµРј С‚РµРі <BR> - РЅРѕРІР°СЏ СЃС‚СЂРѕРєР°
 	//	if (ch == '\n')
 	//		fprintf(fout, "<br>");
 	//}
 
-	//// выводит в HTML завершающие теги документа HTML
+	//// РІС‹РІРѕРґРёС‚ РІ HTML Р·Р°РІРµСЂС€Р°СЋС‰РёРµ С‚РµРіРё РґРѕРєСѓРјРµРЅС‚Р° HTML
 	//fprintf(fout, "</body>");
 	//fprintf(fout, "</html>");
-	//// Закрываем файл с текстом
+	//// Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р» СЃ С‚РµРєСЃС‚РѕРј
 	//fclose(fin);
 
-	//// Закрываем HTML файл
+	//// Р—Р°РєСЂС‹РІР°РµРј HTML С„Р°Р№Р»
 	//fclose(fout);
 	//printf("END!!!\n");
 
-
-	//ЗАДАЧА 6
+	
+	//Р—РђР”РђР§Рђ 6
 	/*FILE* fin = fopen("text6.txt", "rt");
 	if (fin == NULL) {
-		printf("Входной файл не найден");
+		printf("Р’С…РѕРґРЅРѕР№ С„Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ");
 		return;
 	}
 	FILE* fout;
 	fout = fopen("out6.txt", "wt");
 	if (fout == NULL) {
-		printf("Выходной файл не создался");
+		printf("Р’С‹С…РѕРґРЅРѕР№ С„Р°Р№Р» РЅРµ СЃРѕР·РґР°Р»СЃСЏ");
 		return;
 	}
 	int digits = 0;
@@ -196,17 +196,17 @@ int main()
 	}
 	fclose(fin);
 	fclose(fout);
-	printf("Задача 6 FINISH\n");*/
+	printf("Р—Р°РґР°С‡Р° 6 FINISH\n");*/
+	
 
 
-
-	////ЗАДАЧА 7
+	////Р—РђР”РђР§Рђ 7
 	//FILE* inputFile, * outputFile;
 	//int character;
 	//inputFile = fopen("text7.txt", "rt");
 	//outputFile = fopen("out7.txt", "wt");
 	//if (inputFile == NULL || outputFile == NULL) {
-	//	printf("ошибка открытия файлов\n");
+	//	printf("РѕС€РёР±РєР° РѕС‚РєСЂС‹С‚РёСЏ С„Р°Р№Р»РѕРІ\n");
 	//	return 1;
 	//}
 	//while ((character = fgetc(inputFile)) != EOF) {
@@ -217,7 +217,7 @@ int main()
 	//}
 	//fclose(inputFile);
 	//fclose(outputFile);
-	//printf("выполнено\n");	
+	//printf("РІС‹РїРѕР»РЅРµРЅРѕ\n");	
 }
 
 
