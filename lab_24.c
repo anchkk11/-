@@ -34,7 +34,7 @@ int fact(int n) {
 	{
 		return 1;
 	}
-	return fact(n - 1) * n;
+	return fact(n - 1)*n;
 }
 
 void recEGE1(int n) {
@@ -78,12 +78,12 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	//ÇÀÄÀ×À 1
+	//Ğ—ĞĞ”ĞĞ§Ğ 1
 	//printf("%d", fact(5));
 
 
 
-	//ÇÀÄÀ×À 2
+	//Ğ—ĞĞ”ĞĞ§Ğ 2
 	/*f1(13);
 	printf("\n");
 	f2(13);
@@ -91,7 +91,7 @@ int main()
 	f3(13);
 	printf("\n");*/
 
-	//ÇÀÄÀ×À 3
+	//Ğ—ĞĞ”ĞĞ§Ğ 3
 	/*f1(7);
 	printf("\n");
 	f2(7);
@@ -99,20 +99,20 @@ int main()
 	f3(7);
 	printf("\n");*/
 
-	//ÇÀÄÀ×À 4
+	//Ğ—ĞĞ”ĞĞ§Ğ 4
 	//recEGE1(3);
 
-
-	//ÇÀÄÀ×À 5
+	
+	//Ğ—ĞĞ”ĞĞ§Ğ 5
 	//f1ege(10);
 
-
-	//ÇÀÄÀ×À 6
+	
+	//Ğ—ĞĞ”ĞĞ§Ğ 6
 	//f2ege(1);
 
-	//ÇÀÄÀ×À 7
+	//Ğ—ĞĞ”ĞĞ§Ğ 7
 	f3ege(11);
-
+	
 }
 
 
