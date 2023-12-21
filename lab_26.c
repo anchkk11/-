@@ -127,7 +127,7 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	//ÇÀÄÀ×À 1
+	//Ğ—ĞĞ”ĞĞ§Ğ 1
 	/*printList();
 	addToHead(1);
 	addToHead(3);
@@ -135,13 +135,13 @@ int main()
 	addToHead(9);
 	printList();
 
-	printf("ñóììà: %d\n", sum());
+	printf("ÑÑƒĞ¼Ğ¼Ğ°: %d\n", sum());
 
 	clearList();
 	printList();
-	printf("ñóììà: %d\n", sum());*/
+	printf("ÑÑƒĞ¼Ğ¼Ğ°: %d\n", sum());*/
 
-	//ÇÀÄÀ×À 2
+	//Ğ—ĞĞ”ĞĞ§Ğ 2
 	/*printList();
 	addToHead(1);
 	addToHead(3);
@@ -149,13 +149,13 @@ int main()
 	addToHead(8);
 	printList();
 
-	printf("êîë âî ÷åòíûõ: %d\n", evenCount());
+	printf("ĞºĞ¾Ğ» Ğ²Ğ¾ Ñ‡ĞµÑ‚Ğ½Ñ‹Ñ…: %d\n", evenCount());
 
 	clearList();
 	printList();
-	printf("êîë âî ÷åòíûõ: %d\n", evenCount());*/
+	printf("ĞºĞ¾Ğ» Ğ²Ğ¾ Ñ‡ĞµÑ‚Ğ½Ñ‹Ñ…: %d\n", evenCount());*/
 
-	//ÇÀÄÀ×À 3
+	//Ğ—ĞĞ”ĞĞ§Ğ 3
 	/*printList();
 	addToHead(1);
 	addToHead(3);
@@ -170,7 +170,7 @@ int main()
 	printList();*/
 
 
-	//ÇÀÄÀ×À 4
+	//Ğ—ĞĞ”ĞĞ§Ğ 4
 	/*printList();
 	addToHead(1);
 	addToHead(3);
@@ -188,7 +188,7 @@ int main()
 	printList();*/
 
 
-	//ÇÀÄÀ×À 5
+	//Ğ—ĞĞ”ĞĞ§Ğ 5
 	/*printList();
 	addToHead(1);
 	addToHead(3);
@@ -206,7 +206,7 @@ int main()
 	printList();*/
 
 
-	//ÇÀÄÀ×À 2
+	//Ğ—ĞĞ”ĞĞ§Ğ 2
 	/*f1(13);
 	printf("\n");
 	f2(13);
@@ -214,7 +214,7 @@ int main()
 	f3(13);
 	printf("\n");*/
 
-	//ÇÀÄÀ×À 3
+	//Ğ—ĞĞ”ĞĞ§Ğ 3
 	/*f1(7);
 	printf("\n");
 	f2(7);
@@ -222,18 +222,18 @@ int main()
 	f3(7);
 	printf("\n");*/
 
-	//ÇÀÄÀ×À 4
+	//Ğ—ĞĞ”ĞĞ§Ğ 4
 	//recEGE1(3);
 
 	
-	//ÇÀÄÀ×À 5
+	//Ğ—ĞĞ”ĞĞ§Ğ 5
 	//f1ege(10);
 
 	
-	//ÇÀÄÀ×À 6
+	//Ğ—ĞĞ”ĞĞ§Ğ 6
 	//f2ege(1);
 
-	//ÇÀÄÀ×À 7
+	//Ğ—ĞĞ”ĞĞ§Ğ 7
 	
 }
 
