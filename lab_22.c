@@ -14,14 +14,14 @@ int toUpperAll(int c) {
     if (c >= 'a' && c <= 'z') {
         new_c = 'A' + (c - 'a');
     }
-    if (c >= 'à' && c <= 'ï') {
-        new_c = 'À' + (c - 'à');
+    if (c >= 'а' && c <= 'п') {
+        new_c = 'А' + (c - 'а');
     }
-    if (c >= 'ð' && c <= 'ÿ') {
-        new_c = 'Ð' + (c - 'ð');
+    if (c >= 'р' && c <= 'я') {
+        new_c = 'Р' + (c - 'р');
     }
-    if (c == '¸') {
-        new_c = '¨';
+    if (c == 'ё') {
+        new_c = 'Ё';
     }
     return new_c;
 }
@@ -53,7 +53,7 @@ int main()
         printf("'%c' (%d)\n", c, c);
     }
     printf("\n\n\n");*/
-    
+
     //ЗАДАЧА 4
     /*char s[80];
     printf("введите строку: ");
@@ -65,7 +65,7 @@ int main()
     for (int i = 0; i < strlen(s); i++) {
         if (s[i] == ' ') cnt++;
     }
-    
+
     printf("\nв ней %d пробел.\n", cnt);*/
 
     //ЗАДАЧА 5
@@ -115,8 +115,6 @@ int main()
 
     printf("результат: %s\n", str);
 }
-
-
 
 
 
