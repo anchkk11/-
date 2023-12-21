@@ -14,14 +14,14 @@ int toUpperAll(int c) {
     if (c >= 'a' && c <= 'z') {
         new_c = 'A' + (c - 'a');
     }
-    if (c >= 'а' && c <= 'п') {
-        new_c = 'А' + (c - 'а');
+    if (c >= 'Г ' && c <= 'ГЇ') {
+        new_c = 'ГЂ' + (c - 'Г ');
     }
-    if (c >= 'р' && c <= 'я') {
-        new_c = 'Р' + (c - 'р');
+    if (c >= 'Г°' && c <= 'Гї') {
+        new_c = 'Гђ' + (c - 'Г°');
     }
-    if (c == 'ё') {
-        new_c = 'Ё';
+    if (c == 'Вё') {
+        new_c = 'ВЁ';
     }
     return new_c;
 }
@@ -30,14 +30,14 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    //ЗАДАЧА 1
+    //Р—РђР”РђР§Рђ 1
     /*char name[12];
-    printf("введите ваше имя: ");
+    printf("РІРІРµРґРёС‚Рµ РІР°С€Рµ РёРјСЏ: ");
     fgets(name, 11, stdin);
-    printf("приветствую тебя, %s\n", name);*/
+    printf("РїСЂРёРІРµС‚СЃС‚РІСѓСЋ С‚РµР±СЏ, %s\n", name);*/
 
-    //ЗАДАЧА 2
-    /*printf("введите символ = ");
+    //Р—РђР”РђР§Рђ 2
+    /*printf("РІРІРµРґРёС‚Рµ СЃРёРјРІРѕР» = ");
     int ch = getchar();
 
     for (int c = ch; c <= ch + 19; c++) {
@@ -45,66 +45,66 @@ int main()
     }
     printf("\n\n\n");*/
 
-    //ЗАДАЧА 3
-    /*printf("введите символ = ");
+    //Р—РђР”РђР§Рђ 3
+    /*printf("РІРІРµРґРёС‚Рµ СЃРёРјРІРѕР» = ");
     int ch = getchar();
 
     for (int c = ch; c >= ch - 29; c--) {
         printf("'%c' (%d)\n", c, c);
     }
     printf("\n\n\n");*/
-
-    //ЗАДАЧА 4
+    
+    //Р—РђР”РђР§Рђ 4
     /*char s[80];
-    printf("введите строку: ");
+    printf("РІРІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     fgets(s, 79, stdin);
 
-    printf("\nВы ввели строку s = %s", s);
+    printf("\nР’С‹ РІРІРµР»Рё СЃС‚СЂРѕРєСѓ s = %s", s);
 
     int cnt = 0;
     for (int i = 0; i < strlen(s); i++) {
         if (s[i] == ' ') cnt++;
     }
+    
+    printf("\nРІ РЅРµР№ %d РїСЂРѕР±РµР».\n", cnt);*/
 
-    printf("\nв ней %d пробел.\n", cnt);*/
-
-    //ЗАДАЧА 5
+    //Р—РђР”РђР§Рђ 5
     /*char s[100];
-    printf("введите строку: ");
+    printf("РІРІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     fgets(s, sizeof(s), stdin);
     for (int i = 0; s[i] != '\0'; i++) {
         if (s[i] == ' ') {
             s[i] = '#';
         }
     }
-    printf("обработанная строка: %s", s);*/
+    printf("РѕР±СЂР°Р±РѕС‚Р°РЅРЅР°СЏ СЃС‚СЂРѕРєР°: %s", s);*/
 
-    //ЗАДАЧА 6
+    //Р—РђР”РђР§Рђ 6
     /*char str[100];
-    printf("введите строку: ");
+    printf("РІРІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     fgets(str, 100, stdin);
-    printf("исходная: %s", str);
+    printf("РёСЃС…РѕРґРЅР°СЏ: %s", str);
     for (int i = 0; i < strlen(str); i++) {
         if (isDigitMy(str[i])) {
             str[i] = "$";
         }
     }
-    printf("итоговая: %s", str);*/
+    printf("РёС‚РѕРіРѕРІР°СЏ: %s", str);*/
 
-    //ЗАДАЧА 7
+    //Р—РђР”РђР§Рђ 7
     //char str[100];
-    //printf("введите строку: ");
+    //printf("РІРІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     //fgets(str, 100, stdin);
-    //printf("исходная: %s", str);
+    //printf("РёСЃС…РѕРґРЅР°СЏ: %s", str);
     //for (int i = 0; i < strlen(str); i++) {
     //    str[i] = toUpperAll(str[i]);
     //}
-    //printf("итоговая: %s", str);
+    //printf("РёС‚РѕРіРѕРІР°СЏ: %s", str);
 
 
-    //ЗАДАЧА 8
+    //Р—РђР”РђР§Рђ 8
     char str[100];
-    printf("введите строку: ");
+    printf("РІРІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
     fgets(str, 100, stdin);
 
     for (int i = 0; str[i] != '\0'; i++) {
@@ -113,8 +113,10 @@ int main()
         }
     }
 
-    printf("результат: %s\n", str);
+    printf("СЂРµР·СѓР»СЊС‚Р°С‚: %s\n", str);
 }
+
+
 
 
 
